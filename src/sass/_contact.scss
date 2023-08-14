@@ -1,0 +1,105 @@
+.contact-title {
+  position: relative;
+}
+
+.newForm {
+  margin-top: -92px;
+  margin-bottom: 100px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: center;
+  width: 750px;
+
+  label {
+    color: $secondcolor;
+    font-size: 25px;
+    letter-spacing: 6.5px;
+    line-height: 80px;
+    font-weight: 850;
+    text-transform: uppercase;
+  }
+
+  input,
+  textarea {
+    margin: 0 auto;
+    width: 75%;
+    display: block;
+    font-size: 26px;
+    border: 6px solid $secondcolor;
+    line-height: 62px;
+  }
+
+  button {
+    background-color: $firstcolor;
+    color: $thirdcolor;
+    font-size: 20px;
+    letter-spacing: 4.5px;
+    line-height: 70px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 0 50px;
+    margin: 20px 0 40px 0;
+    text-align: center;
+    opacity: 0.5;
+  }
+
+  button:hover {
+    background-color: red;
+    opacity: 1.0;
+  }
+
+
+}
+
+@media (max-width: 900px) {
+  form {
+    width: 500px;
+
+    label {
+      font-size: 22px;
+      line-height: 70px;
+    }
+
+    input,
+    textarea {
+      line-height: 30px;
+      font-size: 22px;
+    }
+
+    button {
+      font-size: 24px;
+      line-height: 60px;
+      padding: 0 50px;
+      margin: 40px 0 40px 0;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  form {
+    width: 100%;
+
+    label {
+      font-size: 15, 5px;
+      line-height: 38px;
+    }
+
+    input,
+    textarea {
+      border-width: 2.5px;
+      line-height: 30px;
+      font-size: 15.5px;
+    }
+
+    button {
+      font-size: 16px;
+
+      line-height: 38px;
+
+      padding: 0 40px;
+      margin: 40px 0 40px 0;
+    }
+  }
+}

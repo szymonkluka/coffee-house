@@ -1,0 +1,79 @@
+{
+  "messages": [],
+  "products": [
+    {
+      "id": 1,
+      "title": "01. EL TIGRE",
+      "description": "Mysterious and treacherous... The best choice for the start of your journey! It will provide you a rich delicious flavor.",
+      "roasting": "5/10",
+      "intensity": "6/10",
+      "img": "../images/coffee-1.avif"
+    },
+    {
+      "id": 2,
+      "title": "02. la cucaracha",
+      "description": "Really dark coffee, only for the real gourmets. It has bitter flavor of grapefruits and is mixed with a little bit of peanuts with caramel.",
+      "roasting": "8/10",
+      "intensity": "9/10",
+      "img": "../images/coffee-2.avif"
+    },
+    {
+      "id": 3,
+      "title": "03. la lagartija",
+      "description": "Sweet and intense with a big amount of different flavors. Caramel,  grapes, strwaberry, you name it! It’s great choice for warm summer days.",
+      "roasting": "3/10",
+      "intensity": "7/10",
+      "img": "../images/coffee-3.avif"
+    },
+    {
+      "id": 4,
+      "title": "04. Maraka",
+      "description": "Maraka, a mysterious and captivating essence, beckons only to the boldest palates. Its enigmatic bitterness, reminiscent of midnight shadows, mingles with a delicate nutty intrigue, evoking an adventure for the senses that defies the ordinary.",
+      "roasting": "9/10",
+      "intensity": "9/10",
+      "img": "../images/coffee-6.avif"
+    },
+    {
+      "id": 5,
+      "title": "05. Hakuna",
+      "description": "Introducing Nebula Noir, a cosmic blend that sweeps across your taste buds like a starlit journey through the galaxy. Velvety streams of dark chocolate intertwine with the ethereal essence of vanilla mist, creating a celestial dance of flavors that lingers long after the last sip, leaving you craving another voyage into its infinite depths.",
+      "roasting": "4/10",
+      "intensity": "5/10",
+      "img": "../images/hakuna.png"
+    },
+    {
+      "id": 6,
+      "title": "06. WestRock",
+      "description": "Introducing WestRock, a cosmic blend that sweeps across your taste buds like a starlit journey through the galaxy. Velvety streams of dark chocolate intertwine with the ethereal essence of vanilla mist, creating a celestial dance of flavors that lingers long after the last sip, leaving you craving another voyage into its infinite depths.",
+      "roasting": "4/10",
+      "intensity": "5/10",
+      "img": "../images/Westrock.png"
+    }
+  ],
+  "bestSellers": [
+    {
+      "id": 4,
+      "title": "04. Maraka",
+      "description": "Maraka, a mysterious and captivating essence, beckons only to the boldest palates. Its enigmatic bitterness, reminiscent of midnight shadows, mingles with a delicate nutty intrigue, evoking an adventure for the senses that defies the ordinary.",
+      "roasting": "9/10",
+      "intensity": "9/10",
+      "img": "../images/coffee-6.avif"
+    },
+    {
+      "id": 5,
+      "title": "05. Hakuna",
+      "description": "Introducing Nebula Noir, a cosmic blend that sweeps across your taste buds like a starlit journey through the galaxy. Velvety streams of dark chocolate intertwine with the ethereal essence of vanilla mist, creating a celestial dance of flavors that lingers long after the last sip, leaving you craving another voyage into its infinite depths.",
+      "roasting": "4/10",
+      "intensity": "5/10",
+      "img": "../images/hakuna.png"
+    },
+    {
+      "id": 6,
+      "title": "06. WestRock",
+      "description": "Introducing WestRock, a cosmic blend that sweeps across your taste buds like a starlit journey through the galaxy. Velvety streams of dark chocolate intertwine with the ethereal essence of vanilla mist, creating a celestial dance of flavors that lingers long after the last sip, leaving you craving another voyage into its infinite depths.",
+      "roasting": "4/10",
+      "intensity": "5/10",
+      "img": "../images/Westrock.png"
+    }
+  ]
+} 

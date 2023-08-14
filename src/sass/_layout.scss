@@ -1,0 +1,35 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.products-wrapper2 {
+  overflow: hidden;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+
+#home {
+  display: none;
+}
+
+#products {
+  display: none;
+}
+
+#contact {
+  display: none;
+}
+
+#home.active {
+  display: block;
+}
+
+#products.active {
+  display: block;
+}
+
+#contact.active {
+  display: block;
+}

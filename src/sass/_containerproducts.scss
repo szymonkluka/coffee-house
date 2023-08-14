@@ -1,0 +1,175 @@
+article:nth-child(2n) {
+  .product-text {
+    order: 2;
+    padding-left: 100px;
+
+    p {
+      margin-right: 0;
+    }
+  }
+}
+
+.productsmain {
+  position: relative;
+}
+
+.product-img img {
+  object-fit: cover;
+}
+
+.product-text,
+.product-img {
+  padding: 0 22px;
+}
+
+.products-wrapper {
+  overflow: hidden;
+}
+
+.product {
+  margin-top: 48px;
+  margin-bottom: 72px;
+
+  h3 {
+    margin-top: 50px;
+    font-size: 47px;
+    letter-spacing: 2.75px;
+    line-height: 90px;
+    text-transform: uppercase;
+    color: $secondcolor;
+    font-weight: 800;
+  }
+
+  .description {
+    display: flex;
+
+    p {
+      font-size: 15px;
+      letter-spacing: 0;
+      line-height: 22px;
+      color: $sixthcolor;
+      font-weight: 600;
+      margin: 0 90px 0 40px;
+    }
+  }
+
+  .roasting,
+  .intensity {
+    font-size: 17px;
+    letter-spacing: 3px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: $secondcolor;
+    font-weight: 800;
+
+    span {
+      color: $firstcolor;
+    }
+  }
+
+  .roasting {
+    margin-top: 50px;
+  }
+
+  .divider {
+    border-top: 3px solid $firstcolor;
+    width: 200px;
+    margin: 10px 0;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    filter: drop-shadow(30px 10px 4px #d7d7da);
+  }
+}
+
+@media (max-width: 1300px) {
+  .product-text {
+    padding-left: 50px;
+  }
+
+  .product-img {
+    padding-right: 50px;
+  }
+
+  article:nth-child(2n) {
+    .product-text {
+      padding-left: 24px;
+      padding-right: 50px;
+    }
+
+    .product-img {
+      padding-left: 50px;
+      padding-right: 24px;
+    }
+  }
+
+  .product {
+    h3 {
+      margin-top: 0;
+      font-size: 40px;
+      letter-spacing: 2px;
+    }
+
+    .description {
+      p {
+        margin: 0 0 0 20px;
+      }
+    }
+
+    .roasting {
+      margin-top: 30px;
+    }
+
+    .divider {
+      width: 150px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .product {
+    h3 {
+      font-size: 29px;
+      letter-spacing: 0;
+      line-height: 50px;
+    }
+
+    .description {
+      p {
+        margin: 0;
+      }
+    }
+
+    .divider {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  article:nth-child(2n) {
+    .product-text {
+      order: 0;
+    }
+  }
+
+  article.product {
+    .product-text,
+    .product-img {
+      padding: 20px 100px 40px 100px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  article.product {
+    margin-top: 0;
+
+    .product-text,
+    .product-img {
+      padding: 10px 25px 30px 25px;
+    }
+  }
+}
