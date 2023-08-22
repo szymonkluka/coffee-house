@@ -1,5 +1,6 @@
 .contact-title {
   position: relative;
+  margin-bottom: -40px;
 }
 
 .newForm {
@@ -14,19 +15,20 @@ form {
 
   label {
     color: $secondcolor;
-    font-size: 25px;
+    font-size: 22px;
     letter-spacing: 6.5px;
-    line-height: 80px;
+    line-height: 50px;
     font-weight: 850;
     text-transform: uppercase;
   }
 
   input,
   textarea {
+    padding: 5px;
     margin: 0 auto;
     width: 75%;
     display: block;
-    font-size: 26px;
+    font-size: 20px;
     border: 6px solid $secondcolor;
     line-height: 62px;
   }
