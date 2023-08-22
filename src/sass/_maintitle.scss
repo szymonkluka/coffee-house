@@ -115,7 +115,7 @@ nav {
 
   a {
     @include horizontal-center;
-    bottom: 25%;
+    bottom: 20%;
     z-index: 2;
     font-size: 33px;
     letter-spacing: 8px;
@@ -164,7 +164,7 @@ nav {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   nav {
     #mainbrand {
       padding: 0;
@@ -239,7 +239,7 @@ nav {
   }
 }
 
-@media (orientation: landscape) and (max-width: 650px) {
+@media (orientation: landscape) and (max-width: 950px) {
   .maintitle {
     .title {
       justify-content: center;
@@ -262,7 +262,7 @@ nav {
 
     a {
       @include horizontal-center;
-      bottom: 30%;
+      bottom: 10%;
       z-index: 2;
       font-size: 33px;
       letter-spacing: 8px;
@@ -273,7 +273,7 @@ nav {
 
       .icon-arrow-down {
         @include horizontal-center;
-        bottom: -60px;
+        bottom: -50px;
         z-index: 2;
         font-size: 30.8px;
         letter-spacing: 7px;
@@ -286,16 +286,24 @@ nav {
   }
 }
 
-@media (orientation: landscape) and (max-height: 650px) and (max-width: 800px) {
+@media (orientation: landscape) and (max-width: 1100px) {
   nav {
     #mainbrand {
       #brandright {
-        margin-top: 0;
+        margin-top: -10px;
       }
 
       #brandleft {
         display: none;
       }
     }
+  }
+}
+
+@media (orientation: landscape) and (max-width: 900px) {
+  div.maintitle a[href="#products"] {
+    /* Your styles here */
+    margin-top: 100px;
+    /* For example */
   }
 }
